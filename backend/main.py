@@ -112,7 +112,7 @@ Content:
         cards = []
     return {"flashcards": cards}
 
-# Varied search queries — seed අනුව different chunks select වෙනවා
+
 QUIZ_QUERY_VARIANTS = [
     "concepts facts topics",
     "key principles theories examples",
@@ -129,11 +129,11 @@ async def get_quiz(request: QuizRequest = QuizRequest()):
     if not vectorstore or not llm:
         raise HTTPException(status_code=400, detail="Upload a PDF first!")
 
-    # Seed අනුව query + temperature vary කරනවා
+   
     seed = request.seed
     query = QUIZ_QUERY_VARIANTS[seed % len(QUIZ_QUERY_VARIANTS)]
 
-    # Regenerate වෙන වාරේ temperature ටිකක් raise කරනවා (max 0.85)
+   
     temperature = min(0.3 + (seed * 0.1), 0.85)
 
     from langchain_groq import ChatGroq
@@ -146,7 +146,7 @@ async def get_quiz(request: QuizRequest = QuizRequest()):
     docs = vectorstore.similarity_search(query, k=5)
     context = "\n".join([d.page_content for d in docs])
 
-    # Seed info prompt එකේ දාලා LLM ට hint දෙනවා
+   
     prompt = f"""Create 5 NEW and DIFFERENT multiple choice questions from the following lecture content.
 Make sure these questions are different from any previous quiz questions generated.
 Focus on varied aspects: definitions, applications, comparisons, cause-effect, examples.
