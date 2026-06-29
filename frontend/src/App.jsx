@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
 
-const API = "http://127.0.0.1:8000";
+const API = import.meta.env.VITE_API_URL;
 const BG = "/background.jpg";
 
 const tabs = [
