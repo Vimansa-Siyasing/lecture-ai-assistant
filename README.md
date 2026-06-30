@@ -23,8 +23,8 @@ An AI-powered study companion that turns your lecture PDFs into chat Q&A, summar
 
 | | | |
 |---|---|---|
-| ![Desktop 1](./screenshots/desktop-1.png) | ![Desktop 2](./screenshots/desktop-2.png) | ![Desktop 3](./screenshots/desktop-3.png) |
-| ![Desktop 4](./screenshots/desktop-4.png) | ![Desktop 5](./screenshots/desktop-5.png) | ![Desktop 6](./screenshots/desktop-6.png) |
+| ![Desktop 1](./screenshots/desktop-1.jpeg) | ![Desktop 2](./screenshots/desktop-2.jpeg) | ![Desktop 3](./screenshots/desktop-3.jpeg) |
+| ![Desktop 4](./screenshots/desktop-4.jpeg) | ![Desktop 5](./screenshots/desktop-5.jpeg) | ![Desktop 6](./screenshots/desktop-6.jpeg) |
 
 ---
 
@@ -34,8 +34,8 @@ An AI-powered study companion that turns your lecture PDFs into chat Q&A, summar
 
 | | | |
 |---|---|---|
-| ![Mobile 1](./screenshots/mobile-1.png) | ![Mobile 2](./screenshots/mobile-2.png) | ![Mobile 3](./screenshots/mobile-3.png) |
-| ![Mobile 4](./screenshots/mobile-4.png) | ![Mobile 5](./screenshots/mobile-5.png) | ![Mobile 6](./screenshots/mobile-6.png) |
+| ![Mobile 1](./screenshots/mobile-1.jpeg) | ![Mobile 2](./screenshots/mobile-2.jpeg) | ![Mobile 3](./screenshots/mobile-3.jpeg) |
+| ![Mobile 4](./screenshots/mobile-4.jpeg) | ![Mobile 5](./screenshots/mobile-5.jpeg) | ![Mobile 6](./screenshots/mobile-6.jpeg) |
 
 ---
 
@@ -103,18 +103,18 @@ lecture-ai-assistant/
 │   │   └── App.jsx
 │   └── package.json
 └── screenshots/
-    ├── desktop-1.png
-    ├── desktop-2.png
-    ├── desktop-3.png
-    ├── desktop-4.png
-    ├── desktop-5.png
-    ├── desktop-6.png
-    ├── mobile-1.png
-    ├── mobile-2.png
-    ├── mobile-3.png
-    ├── mobile-4.png
-    ├── mobile-5.png
-    └── mobile-6.png
+    ├── desktop-1.jpeg
+    ├── desktop-2.jpeg
+    ├── desktop-3.jpeg
+    ├── desktop-4.jpeg
+    ├── desktop-5.jpeg
+    ├── desktop-6.jpeg
+    ├── mobile-1.jpeg
+    ├── mobile-2.jpeg
+    ├── mobile-3.jpeg
+    ├── mobile-4.jpeg
+    ├── mobile-5.jpeg
+    └── mobile-6.jpeg
 ```
 
 ---
