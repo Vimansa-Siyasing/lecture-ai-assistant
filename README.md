@@ -19,21 +19,35 @@ An AI-powered study companion that turns your lecture PDFs into chat Q&A, summar
 
 ## 🖥️ Desktop view
 
-
-| | | |
-|---|---|---|
-| ![Desktop 1](./screenshots/desktop-1.jpeg) | ![Desktop 2](./screenshots/desktop-2.jpeg) | ![Desktop 3](./screenshots/desktop-3.jpeg) |
-| ![Desktop 4](./screenshots/desktop-4.jpeg) | ![Desktop 5](./screenshots/desktop-5.jpeg) | ![Desktop 6](./screenshots/desktop-6.jpeg) |
+<table>
+<tr>
+<td><img src="./screenshots/desktop-1.jpeg" width="280"/></td>
+<td><img src="./screenshots/desktop-2.jpeg" width="280"/></td>
+<td><img src="./screenshots/desktop-3.jpeg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="./screenshots/desktop-4.jpeg" width="280"/></td>
+<td><img src="./screenshots/desktop-5.jpeg" width="280"/></td>
+<td><img src="./screenshots/desktop-6.jpeg" width="280"/></td>
+</tr>
+</table>
 
 ---
 
 ## 📱 Mobile view
 
-
-| | | |
-|---|---|---|
-| ![Mobile 1](./screenshots/mobile-1.jpeg) | ![Mobile 2](./screenshots/mobile-2.jpeg) | ![Mobile 3](./screenshots/mobile-3.jpeg) |
-| ![Mobile 4](./screenshots/mobile-4.jpeg) | ![Mobile 5](./screenshots/mobile-5.jpeg) | ![Mobile 6](./screenshots/mobile-6.jpeg) |
+<table>
+<tr>
+<td><img src="./screenshots/mobile-1.jpeg" width="180"/></td>
+<td><img src="./screenshots/mobile-2.jpeg" width="180"/></td>
+<td><img src="./screenshots/mobile-3.jpeg" width="180"/></td>
+</tr>
+<tr>
+<td><img src="./screenshots/mobile-4.jpeg" width="180"/></td>
+<td><img src="./screenshots/mobile-5.jpeg" width="180"/></td>
+<td><img src="./screenshots/mobile-6.jpeg" width="180"/></td>
+</tr>
+</table>
 
 ---
 
@@ -85,6 +99,7 @@ Set environment variables in `.env`:
 ```
 VITE_API_URL=http://localhost:8000
 ```
+
 ---
 
 ## 👤 Author
