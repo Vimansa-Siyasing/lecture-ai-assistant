@@ -85,36 +85,6 @@ Set environment variables in `.env`:
 ```
 VITE_API_URL=http://localhost:8000
 ```
-
----
-
-## 📂 Project structure
-
-```
-lecture-ai-assistant/
-├── backend/
-│   ├── main.py
-│   ├── rag.py
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   └── App.jsx
-│   └── package.json
-└── screenshots/
-    ├── desktop-1.jpeg
-    ├── desktop-2.jpeg
-    ├── desktop-3.jpeg
-    ├── desktop-4.jpeg
-    ├── desktop-5.jpeg
-    ├── desktop-6.jpeg
-    ├── mobile-1.jpeg
-    ├── mobile-2.jpeg
-    ├── mobile-3.jpeg
-    ├── mobile-4.jpeg
-    ├── mobile-5.jpeg
-    └── mobile-6.jpeg
-```
-
 ---
 
 ## 👤 Author
