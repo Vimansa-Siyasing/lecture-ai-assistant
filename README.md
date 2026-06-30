@@ -19,7 +19,6 @@ An AI-powered study companion that turns your lecture PDFs into chat Q&A, summar
 
 ## 🖥️ Desktop view
 
-> Sidebar navigation, full-width chat and content panels.
 
 | | | |
 |---|---|---|
@@ -30,7 +29,6 @@ An AI-powered study companion that turns your lecture PDFs into chat Q&A, summar
 
 ## 📱 Mobile view
 
-> Bottom tab bar navigation, compact layout optimized for small screens.
 
 | | | |
 |---|---|---|
@@ -124,4 +122,4 @@ lecture-ai-assistant/
 **Vimansa Siyasinghe**
 3rd-year BSc (Hons) Software Engineering — NSBM Green University
 
-[LinkedIn](#) · [GitHub](https://github.com/Vimansa-Siyasing)
+[LinkedIn](https://www.linkedin.com/in/vimansa-siyasinghe-1b74103a8) · [GitHub](https://github.com/Vimansa-Siyasing)
